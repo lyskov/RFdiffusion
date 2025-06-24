@@ -3,11 +3,13 @@
 
 name: Python application
 
-on:
-  push:
-    branches: [ "main", "github-ci" ]
-  pull_request:
-    branches: [ "main", "github-ci" ]
+#on:
+#  push:
+#    branches: [ "main", "github-ci" ]
+#  pull_request:
+#    branches: [ "main", "github-ci" ]
+
+on: [push, pull_request]
 
 permissions:
   contents: read
